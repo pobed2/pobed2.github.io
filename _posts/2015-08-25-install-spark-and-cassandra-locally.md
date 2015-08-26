@@ -9,13 +9,15 @@ title: Install Spark and Cassandra locally
 
 1. [Download JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. Verify java version
-  ```
-  java -version
-  # Expected output: java version "1.8.0_75"
 
-  javac -version
-  # Expected output: javac 1.8.0_75
-  ```
+    ```
+    java -version
+    # Expected output: java version "1.8.0_75"
+
+    javac -version
+    # Expected output: javac 1.8.0_75
+    ```
+
 ### Install Cassandra in ~/opt/packages
 
   ```
@@ -49,12 +51,12 @@ Restart your terminal. (Or `source .bash_profile`)
 ### Install Scala on Mac
 
 #### Install Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #### Install Scala
-brew install scala 
+brew install scala
 export SCALA_HOME=/usr/local/bin/scala  
-export PATH=$PATH:$SCALA_HOME/bin 
+export PATH=$PATH:$SCALA_HOME/bin
 
 ### Install Spark
 ```
