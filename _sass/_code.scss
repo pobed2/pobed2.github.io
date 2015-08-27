@@ -9,7 +9,7 @@ pre {
 }
 
 code {
-  padding: .25em .5em;
+  padding: .25em 0em .5em 0em;
   font-size: 85%;
   color: #bf616a;
   background-color: #f9f9f9;
@@ -21,12 +21,12 @@ pre {
   margin-bottom: 1rem;
 }
 
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
-}
+// pre code {
+//   padding: 0;
+//   font-size: 100%;
+//   color: inherit;
+//   background-color: transparent;
+// }
 
 // Pygments via Jekyll
 .highlight {
