@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Pierre-Olivier Bédard
-tagline:             The blog!
+tagline:             Notes and stuff
 url:                 http://pobed2.github.com
 paginate:            1
 baseurl:             ""
