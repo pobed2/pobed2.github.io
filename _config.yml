@@ -11,6 +11,9 @@ url:                 http://pobed2.github.com
 paginate:            1
 baseurl:             ""
 
+gems:
+  - jekyll-sitemap
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
